@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css">
     <title>Form</title>
   </head>
   <body style="background-image:url('https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2Vic2l0ZSUyMGFydHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700'); background-size: cover; background-attachment: fixed;">
@@ -23,10 +24,10 @@
       <input type="text" placeholder="# # #" />
       <br />
       <p>What is your estimated budget?</p>
-      <input type="text" />
+      <input type="text" placeholder="$" />
       <br />
       <p>In short, what is the project about?</p>
-      <textarea rows="10" cols="20"></textarea>
+      <textarea rows="10" cols="50"></textarea>
       <br />
       <p>How iportant is SEO for website?</p>
       <select>
@@ -36,12 +37,12 @@
       </select>
       <br />
       <p>Do you need hosting and email</p>
-      <input id="Yes" type="radio" />
+      <input name="fam1" id="Yes" type="radio" />
       <label for="Yes">Yes</label>
-      <input id="No" type="radio" />
+      <input name="fam1" id="No" type="radio" />
       <label for="No">No</label>
       <br/>
-      <input type="Submit">
+      <input class="submit" type="Submit">
     </form>
   </body>
 </html>
